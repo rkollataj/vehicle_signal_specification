@@ -9,7 +9,7 @@ vehicle.turnsignal.left,"2","Boolean","","","","left turn signal",""
 vehicle.battery,"6","UInt8","","10","14","battery voltage in V",""
 vehicle.transmission,"","branch","","","","transmission signals",""
 vehicle.transmission.gear,"10","String","","","","gear setting","park / reverse / neutral / drive"
-vehicle.ignition,"1","Boolean","","","","ignition on or off",""
+vehicle.ignition,"1","String","","","","ignition off, acc, on, start","off / acc / on / start"
 vehicle.fuel,"5","UInt8","","0","100","fuel level as percentage",""
 vehicle.speed,"4","UInt16","","0","220","vehicle speed",""
 

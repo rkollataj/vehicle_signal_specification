@@ -10,9 +10,10 @@
   description: highlevel vehicle data
 
 - vehicle.ignition:
-  type: boolean
+  type: string
+  enum: ["off", "acc", "on", "start"]
   can: <can db entry>
-  description: ignition on or off
+  description: ignition off, acc, on, start
 
 - vehicle.turnsignal:
   type: branch

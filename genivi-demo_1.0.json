@@ -77,8 +77,14 @@
         }
       }, 
       "ignition": {
-        "type": "Boolean", 
-        "description": "ignition on or off", 
+        "type": "String", 
+        "description": "ignition off, acc, on, start", 
+        "enum": [
+          "off", 
+          "acc", 
+          "on", 
+          "start"
+        ], 
         "id": 1, 
         "can": "<can db entry>"
       }, 

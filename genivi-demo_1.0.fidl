@@ -72,9 +72,10 @@ const SignalSpec[] signal_spec = [
 ,
 {
     name: "vehicle.ignition"
-    type: "Boolean"
-    description: "ignition on or off"
+    type: "String"
+    description: "ignition off, acc, on, start"
     id: 1
+    enum: ['off', 'acc', 'on', 'start']
 }
 ,
 {
