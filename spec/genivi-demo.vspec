@@ -11,9 +11,9 @@
 
 - vehicle.ignition:
   type: string
-  enum: ["off", "acc", "on", "start"]
+  enum: ["off", "accessory", "on", "start"]
   can: <can db entry>
-  description: ignition off, acc, on, start
+  description: ignition status
 
 - vehicle.turnsignal:
   type: branch
@@ -58,9 +58,9 @@
 - vehicle.engine.rpm:
   type: uint16
   min: 0
-  max: 100
+  max: 10
   can: <can db entry>
-  description: engine rpm x 10
+  description: engine rpm x 1000
   
 - vehicle.engine.temperature:
   type: uint16

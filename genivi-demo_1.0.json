@@ -15,9 +15,9 @@
             "id": 9
           }, 
           "rpm": {
-            "description": "engine rpm x 10", 
+            "description": "engine rpm x 1000", 
             "min": 0, 
-            "max": 100, 
+            "max": 10, 
             "can": "<can db entry>", 
             "type": "UInt16", 
             "id": 7
@@ -78,10 +78,10 @@
       }, 
       "ignition": {
         "type": "String", 
-        "description": "ignition off, acc, on, start", 
+        "description": "ignition status", 
         "enum": [
           "off", 
-          "acc", 
+          "accessory", 
           "on", 
           "start"
         ], 

@@ -26,10 +26,10 @@ const SignalSpec[] signal_spec = [
 {
     name: "vehicle.engine.rpm"
     type: "UInt16"
-    description: "engine rpm x 10"
+    description: "engine rpm x 1000"
     id: 7
     min: 0
-    max: 100
+    max: 10
 }
 ,
 {
@@ -73,9 +73,9 @@ const SignalSpec[] signal_spec = [
 {
     name: "vehicle.ignition"
     type: "String"
-    description: "ignition off, acc, on, start"
+    description: "ignition status"
     id: 1
-    enum: ['off', 'acc', 'on', 'start']
+    enum: ['off', 'accessory', 'on', 'start']
 }
 ,
 {
